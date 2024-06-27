@@ -1,0 +1,101 @@
+.banner {
+    width: 100%;
+    height: 40vw;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title h2 {
+    font-size: 4rem;
+    line-height: 0.8em;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about-text p {
+    font-family: "arial", serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about-text {
+    width: 70%;
+    margin: auto;
+}
+
+.about-h h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about-h {
+    text-align: left;
+}
+
+.innner-content {
+    overflow: hidden;
+}
+
+.about_main {
+    width: 90%;
+    margin: auto;
+    padding: 40px 14px;
+}
+
+.about_main .about_p {
+    text-align: center;
+}
+
+/* Responsive CSS */
+@media (max-width: 1000px) {
+    .hero-title h2 {
+        font-size: 3rem;
+    }
+    .about-h h2 {
+        font-size: 2.5rem;
+    }
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        height: 50vh;
+    }
+    .hero-title h2 {
+        font-size: 2.5rem;
+    }
+    .about-h h2 {
+        font-size: 2rem;
+    }
+    .about-text p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title h2 {
+        font-size: 2rem;
+    }
+    .about-h h2 {
+        font-size: 1.5rem;
+    }
+    .about-text p {
+        font-size: 0.75rem;
+    }
+}

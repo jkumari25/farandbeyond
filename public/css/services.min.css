@@ -1,0 +1,98 @@
+.banner {
+    width: 100%;
+    height: 40vw;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-title h2 {
+    font-size: 6.5rem;
+    line-height: .8em;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about-text {
+    width: 70%;
+    margin: auto;
+}
+
+.about-text p {
+    padding-top: 0;
+    font-family: 'arial', serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about-img2 {
+    min-height: 37vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-img2 img {
+    width: 100%;
+    height: 40vw;
+}
+
+.trips-bg .inner-section {
+    padding: 0px;
+}
+
+.about_main2, .about_main5 {
+    min-height: 26vw;
+    height: 100%;
+    width: 100%;
+    padding: 35px 50px;
+    background: #FFF7F7;
+}
+
+.inner_sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_main3 {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .hero-title h2 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-title h2 {
+        font-size: 3rem;
+    }
+
+    .about-text {
+        width: 90%;
+    }
+
+    .about_main2, .about_main5 {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .about_main2, .about_main5 {
+        padding: 15px;
+    }
+}
